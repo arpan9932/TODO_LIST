@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#a1c3e4;
+}
+header{
+    text-align: center;
+}
+.container{
+    background: rgb(231, 223, 223);
+    width: 57%;
+    display: flex;
+    margin-left: 21%;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.heading{
+    margin:2%;
+}
+#myinput{
+    width: 83%;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 10px;
+}
+#mydate{
+    width: 3.7%;
+    height: 31px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 27px;
+}
+button{
+    height: 30px;
+    width: 10%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 6px;
+    cursor: pointer;
+}
+main{
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+hr{
+    border: 1px solid black;
+}
+.catagory{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    gap: 10px;
+}
+#myid{
+    display: flex;
+    gap:10px;
+    font-size: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4%;
+}
+.block{
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #86c7da;
+    width: 100%;
+    cursor: pointer;
+}
+.block:hover{
+    background-color:beige
+}
+#display{
+    width: 75%;
+}
+img{
+    max-width: 2%;
+}
+.checked{
+    text-decoration: line-through;
+  }
+  .checked::after{
+    font-size:small;
+    content: "\2713";
+    padding-left: 4%;
+  }
+  .hide{
+    display: none;
+    text-decoration: line-through;
+  }
+  #datedisplay{
+    font-size: medium;
+    width: 15%;
+  }
